@@ -4491,10 +4491,10 @@ defu@^3.1.0:
   resolved "https://registry.yarnpkg.com/defu/-/defu-3.1.0.tgz#a6b5104cacc06aa1efa01923becddbedd32505e8"
   integrity sha512-pc7vS4wbYFtsRL+OaLHKD72VcpOz9eYgzZeoLz9pCs+R8htyPdZnD1CxKP9ttZuT90CLPYFTSaTyc3/7v4gG9A==
 
-defu@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/defu/-/defu-3.2.1.tgz#3a6457796c7e0c21d3420fec402a8d1297812655"
-  integrity sha512-M/K9dtFywZG/fzMmQoJLxcR7viJNMklKnF8eu8k+mZLr+DCWLxq3cXEpehG2498llRYypDbkLrrMH/DK2xYW6g==
+defu@^3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/defu/-/defu-3.2.2.tgz#be20f4cc49b9805d54ee6b610658d53894942e97"
+  integrity sha512-8UWj5lNv7HD+kB0e9w77Z7TdQlbUYDVWqITLHNqFIn6khrNHv5WQo38Dcm1f6HeNyZf0U7UbPf6WeZDSdCzGDQ==
 
 delayed-stream@~1.0.0:
   version "1.0.0"
@@ -6517,10 +6517,10 @@ ipaddr.js@1.9.1:
   resolved "https://registry.yarnpkg.com/ipaddr.js/-/ipaddr.js-1.9.1.tgz#bff38543eeb8984825079ff3a2a8e6cbd46781b3"
   integrity sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==
 
-ipx@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/ipx/-/ipx-0.4.0.tgz#1a14402d473fb24972b2956f8840f8e208fdf54b"
-  integrity sha512-+1kAXuhU4vN0GcF2vDIxdYRP9D9E6wZuXWsZe+/7atM6MD26YG03JTrOAyo8Oa5OI7pZEZUAhDVKteghpJC3Tg==
+ipx@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/ipx/-/ipx-0.4.1.tgz#747c221e1ec979247401f870de0f7afdeaf7837f"
+  integrity sha512-TxKdCKMo2eYUDK2Nbs0mAVQQuBmEuuB8oeToyajxMrzPj3aVoonAyo+m6b0XZufE5fBP1rCm+KSkOr0I5Qh70A==
   dependencies:
     connect "^3.7.0"
     consola "^2.15.0"
@@ -9107,10 +9107,10 @@ pkg-up@^3.1.0:
   dependencies:
     find-up "^3.0.0"
 
-playwright@^1.5.2:
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.5.2.tgz#e127142cba86c918fad9f68315db5e79524af64c"
-  integrity sha512-on7IEui47bDZta0txL86QKMDSgjbxERkLc5N0+lU2zajIfN/Ld6vMl+xiROEUPlT/QtqVekq9pTDGdcc0yScMQ==
+playwright@^1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.6.1.tgz#0afc0829139792f6b944fa2a1aa91231fc32a75a"
+  integrity sha512-0CQdAg1NbV+ZXr7p3E62sSPRLO2peNAFC7e7NXCXR7Nj75b9Dmc8lF8bevT7eu1gbzo0ZwtFUlmAGLZ1/W/wVg==
   dependencies:
     debug "^4.1.1"
     extract-zip "^2.0.1"

@@ -2,12 +2,15 @@ import { Module } from '@nuxt/types'
 import { ImagePreset } from './runtime'
 
 export interface ModuleOptions {
-  defaultProvider: string;
+  provider: string;
   presets: ImagePreset[];
   ipx: {
     dir?: string;
     clearCache?: boolean | string;
     cacheDir?: string;
+    sharp: {
+      [key: string]: any;
+    }
   }
   sizes: number[],
   internalUrl?: string

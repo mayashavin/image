@@ -11,7 +11,7 @@ function imageModule (moduleOptions: ModuleOptions) {
   const { nuxt, addServerMiddleware, addPlugin } = this
 
   const options: ModuleOptions = {
-    defaultProvider: 'ipx',
+    provider: 'ipx',
     presets: [],
     intersectOptions: {},
     sizes: [320, 420, 768, 1024, 1200],
@@ -37,7 +37,7 @@ function imageModule (moduleOptions: ModuleOptions) {
 
   const pluginOptions = {
     sizes: options.sizes,
-    defaultProvider: options.defaultProvider,
+    defaultProvider: options.provider,
     intersectOptions: options.intersectOptions,
     imports: {} as { [name: string]: string },
     providers: [] as { name: string, import: string, options: any }[],
@@ -176,7 +176,8 @@ function prepareLocalProvider ({ nuxt, options }, providerOptions) {
     baseURL: `http://${defaultHost}:${defaultPort}${prefix}`,
     dir: path.join('~', nuxt.options.dir.static),
     clearCache: false,
-    cacheDir: '~~/node_modules/.cache/nuxt-image'
+    cacheDir: '~~/node_modules/.cache/nuxt-image',
+    sharp: {}
   })
 
   providerOptions.dir = nuxt.resolver.resolveAlias(providerOptions.dir)
